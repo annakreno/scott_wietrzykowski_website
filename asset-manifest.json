@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/scott_wietrzykowski_website/static/css/main.60e5a6c3.css",
+    "main.js": "/scott_wietrzykowski_website/static/js/main.59dfe1f1.js",
+    "static/js/787.2de39b38.chunk.js": "/scott_wietrzykowski_website/static/js/787.2de39b38.chunk.js",
+    "static/media/equipment3.jpeg": "/scott_wietrzykowski_website/static/media/equipment3.c3ea6af3c21300f0f456.jpeg",
+    "static/media/equipment1.jpg": "/scott_wietrzykowski_website/static/media/equipment1.8732b8f2c41ccd0ac87c.jpg",
+    "static/media/scott2.jpg": "/scott_wietrzykowski_website/static/media/scott2.13a4cb054dd79f6f5c64.jpg",
+    "static/media/equipment2.jpg": "/scott_wietrzykowski_website/static/media/equipment2.dd1d730f97e11bc40a5a.jpg",
+    "static/media/scott1.png": "/scott_wietrzykowski_website/static/media/scott1.166be0e5eb4bc8e25ab2.png",
+    "static/media/logo.png": "/scott_wietrzykowski_website/static/media/logo.871bb58aec2ba452fb7a.png",
+    "static/media/scott3.jpeg": "/scott_wietrzykowski_website/static/media/scott3.780d6109853ecefb83c2.jpeg",
+    "static/media/name.png": "/scott_wietrzykowski_website/static/media/name.d3568263ec6b749c38f2.png",
+    "static/media/imdb.png": "/scott_wietrzykowski_website/static/media/imdb.410cb141d1719173950e.png",
+    "static/media/instagram.png": "/scott_wietrzykowski_website/static/media/instagram.bc603acad2a8cb3bd098.png",
+    "static/media/email.png": "/scott_wietrzykowski_website/static/media/email.67bda94140af311d041f.png",
+    "index.html": "/scott_wietrzykowski_website/index.html",
+    "main.60e5a6c3.css.map": "/scott_wietrzykowski_website/static/css/main.60e5a6c3.css.map",
+    "main.59dfe1f1.js.map": "/scott_wietrzykowski_website/static/js/main.59dfe1f1.js.map",
+    "787.2de39b38.chunk.js.map": "/scott_wietrzykowski_website/static/js/787.2de39b38.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.60e5a6c3.css",
+    "static/js/main.59dfe1f1.js"
+  ]
+}
