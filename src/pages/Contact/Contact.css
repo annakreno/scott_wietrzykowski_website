@@ -1,58 +1,27 @@
-#contact-page-content {
-    @media only screen and (max-width: 1200px) {
-        position: relative;
-    }
-}
-
 #contact-page-subtitle {
-
-    @media only screen and (max-width: 1200px) {
-        position: absolute;
-        top: 8%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        height: 60px;
+    @media (max-width: 1024px) {
         width: 90%;
     }
 }
 
 .active {
-    height: 0;
-    margin-bottom: 40px;
-    position: absolute;
-    top: 33%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-    @media only screen and (max-width: 1200px) {
-        height: 100px;
-        position: absolute;
-        top: 22%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+    height: 30px;
+    @media (max-width: 1024px) {
+        width: 90%;
     }
 }
 
 .inactive {
+    height: 30px;
     background-color: var(--secondary);
     color: var(--primary);
-    position: absolute;
-    top: 33%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     border-radius: 50px;
-    height: 0;
     border: 2px solid var(--secondary);
     box-shadow: var(--box-shadow);
     width: 40%;
 
-    @media only screen and (max-width: 1200px) {
-        height: 40px;
-        width: 350px;
-        position: absolute;
-        top: 22%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+    @media (max-width: 1024px) {
+        width: 90%;
     }
 }
 
@@ -75,7 +44,6 @@
     color: var(--secondary);
     font-size: small;
     text-decoration: none;
-    
 }
 
 .cta:hover {
@@ -92,30 +60,18 @@ img.icon:hover {
 }
 
 #contact-page-text {
-
-    @media only screen and (max-width: 1200px) {
-        position: absolute;
-        top: 57%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+    @media (max-width: 1024px) {
         width: 80%;
-        height: auto;
     }
-
 }
 
 .contact-links-container {
     align-items: center;
-
-    @media only screen and (max-width: 1200px) {
-        position: absolute;
-        top: 90%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+    
+    @media (max-width: 1024px) {
         flex-direction: row;
         justify-content: space-evenly;
         width: 60%;
-        height: 60px;
     }
 }
 

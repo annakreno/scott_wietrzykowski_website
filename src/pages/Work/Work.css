@@ -5,7 +5,7 @@
     align-items: center;
     position: relative;
 
-    @media only screen and (max-width: 1200px) {
+    @media (max-width: 1024px) {
         justify-content: space-evenly;
     }
 }
@@ -14,7 +14,7 @@
     height: 500px;
     z-index: 1;
 
-    @media only screen and (max-width: 1200px) {
+    @media (max-width: 1024px) {
         height: 400px;
         width: 90%;
     }
@@ -24,7 +24,7 @@
     height: 500px;
     z-index: 1;
 
-    @media only screen and (max-width: 1200px) {
+    @media (max-width: 1024px) {
         height: 400px;
         width: 90%;
     }
@@ -35,8 +35,6 @@ iframe {
     background: var(--secondary);
     border-radius: 5px;
     z-index: 1;
-
-    @media only screen and (max-width: 1200px) {}
 }
 
 .about-video {
@@ -50,7 +48,7 @@ iframe {
     z-index: 1;
     background: var(--secondary);
 
-    @media only screen and (max-width: 1200px) {
+    @media (max-width: 1024px) {
         height: 400px;
         width: 90%;
     }
@@ -76,7 +74,7 @@ iframe {
     height: 500px;
     justify-content: space-between;
 
-    @media only screen and (max-width: 1200px) {
+    @media (max-width: 1024px) {
         height: 20px;
         top: 5%;
         left: 50%;
@@ -92,7 +90,7 @@ iframe {
     border-radius: 50%;
     box-shadow: var(--box-shadow);
 
-    @media only screen and (max-width: 1200px) {
+    @media (max-width: 1024px) {
         height: 40px;
         width: 40px;
     }
