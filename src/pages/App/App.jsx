@@ -8,21 +8,21 @@ import Contact from '../Contact/Contact';
 import Equipment from '../Equipment/Equipment';
 import Work from '../Work/Work';
 import NotFound from '../NotFound/NotFound';
-import { Routes, Route, useNavigate } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 
 export default function App() {
   return (
     <main className="App">
       <NavBar />
-      <Routes>
-        <Route path="/" element={ <Home /> } />
-        <Route path="/about" element={ <About /> } />
-        {/* <Route path="/credits" element={ <Credits /> } /> */}
-        <Route path="/equipment" element={ <Equipment /> } />
-        <Route path="/work" element={ <Work /> } />
-        <Route path="/contact" element={ <Contact /> } />
-        <Route path="*" element={<NotFound />} />
-      </Routes>
+        <Routes>
+          <Route path="/" element={ <Home /> } />
+          <Route path="/about" element={ <About /> } />
+          {/* <Route path="/credits" element={ <Credits /> } /> */}
+          <Route path="/equipment" element={ <Equipment /> } />
+          <Route path="/work" element={ <Work /> } />
+          <Route path="/contact" element={ <Contact /> } />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
       <Footer />
     </main>
   );
