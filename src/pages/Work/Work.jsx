@@ -1,7 +1,5 @@
 import "./Work.css";
-import imdb from "../../images/imdb.png"
 import { useState } from "react";
-import arrow from '../../images/right-arrow.png'
 
 export default function Work() {
 
@@ -64,8 +62,8 @@ export default function Work() {
           {currentImage}
             
           <div className="arrows-container" id="work-page-arrows-container">
-            <img src={arrow} className="arrow left-arrow work-page-arrow" onClick={back}/>  
-            <img src={arrow} className="arrow right-arrow work-page-arrow" onClick={forward}/>
+            <img src='/images/right-arrow.png' className="arrow left-arrow work-page-arrow" onClick={back}/>  
+            <img src='/images/right-arrow.png' className="arrow right-arrow work-page-arrow" onClick={forward}/>
           </div>
         
         </div>

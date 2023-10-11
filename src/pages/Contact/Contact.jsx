@@ -1,11 +1,6 @@
 import "./Contact.css"
-import linkedin from "../../images/linkedin.png"
-import facebook from "../../images/facebook.png"
-import instagram from "../../images/instagram.png"
-import email from "../../images/email.png"
-import phone from "../../images/phone.png"
 import {useState} from "react";
-import imdb from "../../images/imdb.png"
+
 
 export default function Contact() {
   const [activeClass, setActiveClass] = useState("inactive")
@@ -29,14 +24,14 @@ export default function Contact() {
           { activeClass === "active" ?
             <>
               <a href="mailto:swietrz@gmail.com" className="cta">
-                <img src={email} className="icon" />
+                <img src="/images/email.png" className="icon" />
                 &nbsp;
                 swietrz@gmail.com
               </a>
               &nbsp;
               &nbsp;
               <a href="tel:224-465-6568" className="cta">
-                <img src={phone} className="icon"/>
+                <img src="/images/phone.png" className="icon"/>
                 &nbsp;
                 (224) 465-6568
               </a>
@@ -64,22 +59,22 @@ export default function Contact() {
 
         <div className="contact-links-container">
           <a href="https://www.linkedin.com/in/scott-wietrzykowski-b17a54157/">
-            <img src={linkedin} className="icon" />
+            <img src="/images/linkedin.png" className="icon" />
           </a>
           &nbsp;
           &nbsp;
           <a href="https://m.facebook.com/swietr/">
-            <img src={facebook} className="icon" />
+            <img src="/images/facebook.png" className="icon" />
           </a>
           &nbsp;
           &nbsp;
           <a href="https://www.instagram.com/dubscribble/">
-            <img src={instagram} className="icon" />
+            <img src="/images/instagram.png" className="icon" />
           </a>
           &nbsp;
           &nbsp;
           <a href="https://www.imdb.com/name/nm7842959/" className="icon-link" id="imdb-container">
-            <img src={imdb} className="icon" />
+            <img src="/images/imdb.png" className="icon" />
           </a>
         </div>
 

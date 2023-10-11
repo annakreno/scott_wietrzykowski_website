@@ -1,4 +1,3 @@
-import logo from '../../images/logo.png';
 import "./Footer.css"
 
 export default function Footer() {
@@ -8,7 +7,7 @@ export default function Footer() {
         <div>Chicago, IL</div>
         <a href="https://annakreno.github.io/portfolio/" id="designer-link">website by Anna Reno</a>
         <div className='footer-logo' id="footer-logo">
-          {/* <img src={logo} /> */}
+          {/* <img src=/images/logo.png' /> */}
         </div>
       </div>
     );

@@ -1,17 +1,11 @@
 import "./Equipment.css"
 import {Link} from "react-router-dom";
 import { useState } from "react";
-import arrow from '../../images/right-arrow.png'
-import equipment1 from '../../images/equipment1.jpg'
-// import equipment2 from '../../images/equipment2.jpg'
-import equipment3 from '../../images/equipment3.jpeg'
-// import equipment4 from '../../images/equipment4.jpeg'
-// import equipment5 from '../../images/equipment5.jpeg'
 
 export default function Equipment() {
 
-  const [currentImage, setCurrentImage] = useState(equipment1)
-  const carousel = [equipment1, equipment3]
+  const [currentImage, setCurrentImage] = useState('/images/equipment1.jpg')
+  const carousel = ['/images/equipment1.jpg', '/images/equipment3.jpeg']
 
   const back = function() {
     const idx = carousel.indexOf(currentImage)
@@ -62,8 +56,8 @@ export default function Equipment() {
             </div>
             
             <div className="arrows-container">
-              <img src={arrow} className="arrow left-arrow" onClick={back}/>
-              <img src={arrow} className="arrow right-arrow" onClick={forward}/>
+              <img src='/images/right-arrow.png' className="arrow left-arrow" onClick={back}/>
+              <img src='/images/right-arrow.png' className="arrow right-arrow" onClick={forward}/>
             </div>
           </div>
 

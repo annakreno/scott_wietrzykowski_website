@@ -1,5 +1,4 @@
 import "./Credits.css";
-import imdb from "../../images/imdb.png"
 import { Link } from 'react-router-dom';
 
 export default function Credits() {
@@ -10,7 +9,7 @@ export default function Credits() {
           
           <div className="links-container">
             <a href="https://www.imdb.com/name/nm7842959/" className="icon-link" id="imdb-container">
-              <img src={imdb} className="icon" />
+              <img src="/images/imdb.png" className="icon" />
             </a>
             &nbsp;
             &nbsp;

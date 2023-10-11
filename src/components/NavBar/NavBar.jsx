@@ -1,8 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useLocation } from "react-router-dom";
 import React, { useState } from 'react';
-import logo from '../../images/logo.png';
-import name from '../../images/name.png';
 import "./NavBar.css"
 
 export default function NavBar() {
@@ -39,7 +37,7 @@ export default function NavBar() {
           <div className={`menu-bar ${menuOpen ? 'open' : ''}`} />
         </div>
         <div className='nav-links' id="navLogo">
-          <Link to="/" onClick={closeMenu}><img src={name} /></Link>
+          <Link to="/" onClick={closeMenu}><img src='/images/name.png' /></Link>
         </div>
         <div className={activeLinkClass('/about')}>
           <Link to="/about" onClick={closeMenu}>about</Link>

@@ -1,4 +1,3 @@
-import logo from "../../images/logo.png"
 import "./Home.css"
 
 export default function Home() {
@@ -7,7 +6,7 @@ export default function Home() {
     <div className="page-container" id="home-page-container">
 
       <div className="page-image-container" id="home-page-image-container">
-        <img id="home-logo" src={logo}></img>
+        <img id="home-logo" src="/images/logo.png"></img>
       </div>
       
       <div className="page-subtitle typing-effect" id="home-page-subtitle">Production Sound Mixer</div>
